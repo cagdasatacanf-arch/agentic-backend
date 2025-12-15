@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+
+# Virtualenvs
+.venv/
+venv/
+
+# Environment & secrets
+.env
+.env.*
+
+# Byte-compiled / logs
+*.log
+
+# Docker
+*.egg-info/
+dist/
+build/
+
+# Qdrant data
+data/qdrant/
+
+# IDE
+.vscode/
+.idea/
